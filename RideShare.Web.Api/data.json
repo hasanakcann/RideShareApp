@@ -1,0 +1,243 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "FirstName": "Kadir",
+      "LastName": "Atlamaz"
+    },
+    {
+      "Id": 2,
+      "FirstName": "Hasan",
+      "LastName": "Akcan"
+    },
+    {
+      "Id": 3,
+      "FirstName": "Ali",
+      "LastName": "Yıldız"
+    },
+    {
+      "Id": 4,
+      "FirstName": "Melike",
+      "LastName": "Üzümcü"
+    },
+    {
+      "Id": 5,
+      "FirstName": "Kerem",
+      "LastName": "Öztürk"
+    },
+    {
+      "Id": 6,
+      "FirstName": "Cansu",
+      "LastName": "Çırak"
+    },
+    {
+      "Id": 7,
+      "FirstName": "Zeynep",
+      "LastName": "Kurt"
+    },
+    {
+      "Id": 8,
+      "FirstName": "Emre",
+      "LastName": "Demirci"
+    },
+    {
+      "Id": 9,
+      "FirstName": "Burcu",
+      "LastName": "Aydın"
+    },
+    {
+      "Id": 10,
+      "FirstName": "Mert",
+      "LastName": "Kara"
+    }
+  ],
+  "TravelPlans": [
+    {
+      "Id": 1,
+      "User": {
+        "Id": 2,
+        "FirstName": "Hasan",
+        "LastName": "Akcan"
+      },
+      "From": "İstanbul",
+      "To": "Ankara",
+      "Date": "2025-05-20T08:00:00",
+      "SeatCapacity": 3,
+      "Description": "İş gezisi için Ankara’ya gidiyorum.",
+      "IsActive": true
+    },
+    {
+      "Id": 2,
+      "User": {
+        "Id": 4,
+        "FirstName": "Melike",
+        "LastName": "Üzümcü"
+      },
+      "From": "İzmir",
+      "To": "Antalya",
+      "Date": "2025-06-10T10:30:00",
+      "SeatCapacity": 2,
+      "Description": "Yaz tatili planı, deniz kenarına kaçış.",
+      "IsActive": true
+    },
+    {
+      "Id": 3,
+      "User": {
+        "Id": 5,
+        "FirstName": "Kerem",
+        "LastName": "Öztürk"
+      },
+      "From": "Bursa",
+      "To": "Eskişehir",
+      "Date": "2025-05-25T09:00:00",
+      "SeatCapacity": 1,
+      "Description": "Kısa süreli şehirler arası yolculuk.",
+      "IsActive": false
+    },
+    {
+      "Id": 4,
+      "User": {
+        "Id": 8,
+        "FirstName": "Emre",
+        "LastName": "Demirci"
+      },
+      "From": "Samsun",
+      "To": "Trabzon",
+      "Date": "2025-06-01T07:00:00",
+      "SeatCapacity": 3,
+      "Description": "Karadeniz turu başlıyor.",
+      "IsActive": true
+    },
+    {
+      "Id": 5,
+      "User": {
+        "Id": 9,
+        "FirstName": "Burcu",
+        "LastName": "Aydın"
+      },
+      "From": "Adana",
+      "To": "Mersin",
+      "Date": "2025-06-15T11:00:00",
+      "SeatCapacity": 2,
+      "Description": "Hafta sonu gezisi.",
+      "IsActive": true
+    }
+  ],
+  "Contracts": [
+    {
+      "TravelPlan": {
+        "Id": 1,
+        "User": {
+          "Id": 2,
+          "FirstName": "Hasan",
+          "LastName": "Akcan"
+        },
+        "From": "İstanbul",
+        "To": "Ankara",
+        "Date": "2025-05-20T08:00:00",
+        "SeatCapacity": 3,
+        "Description": "İş gezisi için Ankara’ya gidiyorum.",
+        "IsActive": true
+      },
+      "User": {
+        "Id": 1,
+        "FirstName": "Kadir",
+        "LastName": "Atlamaz"
+      },
+      "IsActive": true,
+      "Description": "Ankara’daki toplantıya birlikte katılacağız."
+    },
+    {
+      "TravelPlan": {
+        "Id": 1,
+        "User": {
+          "Id": 2,
+          "FirstName": "Hasan",
+          "LastName": "Akcan"
+        },
+        "From": "İstanbul",
+        "To": "Ankara",
+        "Date": "2025-05-20T08:00:00",
+        "SeatCapacity": 3,
+        "Description": "İş gezisi için Ankara’ya gidiyorum.",
+        "IsActive": true
+      },
+      "User": {
+        "Id": 3,
+        "FirstName": "Ali",
+        "LastName": "Yıldız"
+      },
+      "IsActive": true,
+      "Description": "Yolculuk arkadaşı arıyordum, bu plan çok uygun."
+    },
+    {
+      "TravelPlan": {
+        "Id": 2,
+        "User": {
+          "Id": 4,
+          "FirstName": "Melike",
+          "LastName": "Üzümcü"
+        },
+        "From": "İzmir",
+        "To": "Antalya",
+        "Date": "2025-06-10T10:30:00",
+        "SeatCapacity": 2,
+        "Description": "Yaz tatili planı, deniz kenarına kaçış.",
+        "IsActive": true
+      },
+      "User": {
+        "Id": 6,
+        "FirstName": "Cansu",
+        "LastName": "Çırak"
+      },
+      "IsActive": true,
+      "Description": "Tatil için ideal bir plan."
+    },
+    {
+      "TravelPlan": {
+        "Id": 4,
+        "User": {
+          "Id": 8,
+          "FirstName": "Emre",
+          "LastName": "Demirci"
+        },
+        "From": "Samsun",
+        "To": "Trabzon",
+        "Date": "2025-06-01T07:00:00",
+        "SeatCapacity": 3,
+        "Description": "Karadeniz turu başlıyor.",
+        "IsActive": true
+      },
+      "User": {
+        "Id": 7,
+        "FirstName": "Zeynep",
+        "LastName": "Kurt"
+      },
+      "IsActive": true,
+      "Description": "Trabzon'da ailemi ziyaret edeceğim."
+    },
+    {
+      "TravelPlan": {
+        "Id": 5,
+        "User": {
+          "Id": 9,
+          "FirstName": "Burcu",
+          "LastName": "Aydın"
+        },
+        "From": "Adana",
+        "To": "Mersin",
+        "Date": "2025-06-15T11:00:00",
+        "SeatCapacity": 2,
+        "Description": "Hafta sonu gezisi.",
+        "IsActive": true
+      },
+      "User": {
+        "Id": 10,
+        "FirstName": "Mert",
+        "LastName": "Kara"
+      },
+      "IsActive": true,
+      "Description": "Deniz havası almak istiyorum."
+    }
+  ]
+}
